@@ -1,0 +1,60 @@
+
+ul li {
+  float: left;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #Eccfc3;
+    overflow: hidden;
+  }
+  li a{
+      color: black;
+      text-align: center;
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+  }
+  .r{
+      margin-top: 15px;
+   position: relative;
+   right: 70px;
+      float: right;
+      padding:0;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    text-decoration: none;
+    border-radius: 15px 0 0 15px;
+    overflow: hidden;
+    outline: none ;
+    resize: none;
+    background-color: transparent;
+     }
+     .banner{
+         position: absolute;
+         align-self: center;
+        left : 45px;
+     }
+     .left{
+         position: relative;
+         top: 135px;
+         right: 16px;
+     }
+  .right{
+      position: relative;
+      float: right;
+      top: 135px;
+      left:16px
+  }
+  .name{
+      font-style: normal;
+      font-weight: bold;
+  }
+.navigation{
+    display: inline;
+}
+
+.logo{
+    width: 500px;
+    display: inline;
+}
